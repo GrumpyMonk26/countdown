@@ -1,0 +1,135 @@
+/* Custom Styles For Coming Soon Site */
+
+body {
+    padding-top: 5rem;
+    background: url(img/b1a.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
+/* Navbar */
+
+.bg-dark {
+    background: linear-gradient(#0000, #000 56%)!important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    margin: 50px;
+    width: 250px;
+    text-align: center;
+    transition: 0.50s ease-in-out;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    border-color: #00bdff;
+    box-shadow: 0px 0px 50px #00bdff;
+}
+
+/* Countdown Timer Styling */
+
+.timer p {
+    font-size: 70px;
+    font-weight: bold;
+    word-spacing: 60px;
+}
+
+.days p {
+    word-spacing: 80px;
+}
+/* Text Background */
+
+.txt {
+    background: #00000061;
+    padding: 100px 10px;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    border-radius: 60px;
+}
+
+/* Contact Form */
+
+.form-control {
+    color: #495057;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 33px;
+    transition: 0.50s ease-in-out;
+}
+
+.form-control:focus {
+    color: #fff !important;
+    background-color: #00000030;
+    border: 2px solid #fff;
+    box-shadow: 0px 0px 50px #00bdff;
+}
+
+.form-control:hover {
+    color: #fff !important;
+    background-color: #00000030;
+    border: 2px solid #fff;
+    box-shadow: 0px 0px 50px #00bdff;
+}
+
+::placeholder {
+    color: #fff !important;
+    padding-left: 15px;
+}
+
+/* Button Primary */
+
+.btn-primary {
+    background-color: transparent;
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    margin: 50px;
+    width: 250px;
+    text-align: center;
+    transition: 0.50s ease-in-out;
+}
+
+.btn-primary:hover {
+    border-color: #00bdff;
+    box-shadow: 0px 0px 50px #00bdff;
+    background-color: transparent;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 767px) {
+    .timer p {
+        font-size: 50px;
+        word-spacing: 40px;
+}
+    .days p {
+    word-spacing: 40px;
+}
+}
+
+@media only screen and (max-width: 442px) {
+    .timer p {
+        font-size: 38px;
+        word-spacing: 10px;
+}
+    .days p {
+    word-spacing: 15px;
+}
+}
+
